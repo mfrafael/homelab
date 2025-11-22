@@ -40,10 +40,17 @@ Este é o disco de armazenamento principal para dados de mídia, downloads e arq
 
 | Descrição | Detalhe | Status |
 | :--- | :--- | :--- |
-| **Modelo/Família** | Seagate IronWolf (ST12000VN0008-2JH101) | Classe NAS. |
-| **Capacidade** | 12.0 TB | |
+| **Modelo/Família** | Seagate Exos (ST24000NM000H-3KS103) | Classe Enterprise/Data Center (24/7). |
+| **Capacidade** | 24.0 TB | Dobro da capacidade anterior (12 TB). |
+| **Serial Number** | ZYD0CB2X | |
+| **Firmware** | SN04 | |
+| **Velocidade de Rotação** | 7200 RPM | |
+| **Tamanho Físico** | 3.5 polegadas | |
+| **Interface SATA** | SATA 3.3, 6.0 Gb/s | Conexão completa. |
+| **Setores** | 512B lógico, 4096B físico | |
 | **Dispositivo Linux** | `/dev/sda` | |
 | **Ponto de Montagem** | `/mnt/externalhdd` | Configurado para montagem automática. |
+| **SMART Status** | ✅ Ativo & Disponível | Health Test: PASSED |
 
 
 #### 1.2.1 Case Externo (ORICO)
