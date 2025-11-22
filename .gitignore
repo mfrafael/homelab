@@ -1,0 +1,52 @@
+# 🔐 Credenciais e Dados Sensíveis
+CREDENTIALS.md
+credentials.md
+secrets.md
+*.secrets
+.env
+.env.local
+.env.*.local
+
+# 🛑 Nunca fazer commit destas pastas/arquivos
+*.key
+*.pem
+*.crt
+id_rsa
+id_rsa.pub
+known_hosts
+
+# 📋 Arquivos de backup local
+*.backup
+*.bak
+*.tmp
+*.temp
+
+# 🔍 Editor e IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 📦 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# 🔗 Node/npm (se aplicável)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 📝 Logs
+*.log
+logs/
+
+# 🗂️ OS
+Thumbs.db
+.AppleDouble
+.LSOverride
