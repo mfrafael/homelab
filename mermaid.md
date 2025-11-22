@@ -1,6 +1,8 @@
 ---
 config:
   layout: dagre
+  theme: neo-dark
+  look: neo
 ---
 flowchart RL
  subgraph VMs["Virtual Machines"]
@@ -18,14 +20,15 @@ flowchart RL
         VMs
         LXCs
   end
-    Modem["Modem ISP<br>192.168.1.1"] ==> Router["Roteador Principal<br>GW: 192.168.0.1"]
-    Router ==> Proxmox
-    Router -. DNS Query .-> AdGuard
+    Modem["Modem ISP<br>192.168.1.1"] <==> Router["Router Archer AX12<br>GW: 192.168.0.1"]
+    Router === Proxmox
+    Router <-. DNS Query .-> AdGuard
     HDD["HDD Externo<br>24TB Exos"] == "USB 3.0" === Proxmox
     HDD -. Mount: /mnt/externalhdd .-> Jellyfin & qBitTorrent
 
     HA@{ shape: card}
-    HDD@{ shape: cyl}
+    Modem@{ shape: dbl-circ}
+    HDD@{ shape: disk}
      HA:::vm
      AdGuard:::lxc
      Grafana:::lxc
@@ -36,11 +39,3 @@ flowchart RL
      Modem:::hardware
      Router:::hardware
      HDD:::storage
-    classDef internet fill:#30323a,stroke:#8f63ff,stroke-width:2px,color:#e2e2e2
-    classDef hardware fill:#30323a,stroke:#69a7ff,stroke-width:2px,color:#e2e2e2
-    classDef storage fill:#1f1f23,stroke:#b47f37,stroke-width:2px,color:#e7d7b7
-    classDef vm fill:#4a2e2e,stroke:#ff7043,stroke-width:2px,color:#ffd5c2
-    classDef lxc fill:#1f2f3a,stroke:#4fc3f7,stroke-width:2px,color:#d8f3ff
-    style Modem fill:#272a30,stroke:#7a7f87,stroke-width:2px,color:#e2e2e2
-    style Router fill:#272a30,stroke:#7a7f87,stroke-width:2px,color:#e2e2e2
-    style Proxmox fill:#3a3d45,stroke:#ffb347,stroke-width:2px,color:#ffe8c6
