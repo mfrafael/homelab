@@ -1,0 +1,67 @@
+{
+  "drive_id": "R",
+  "location": "Desktop",
+  "data_criacao_doc": "2025-11-23",
+  "metadados": {
+    "nome_unidade_atual": "R: [Retrogaming]",
+    "fabricante": "Seagate Technology",
+    "modelo": "IronWolf",
+    "modelo_id": "ST4000VN008-2DR166",
+    "firmware": "SC60",
+    "capacidade_gb": 3815,
+    "total_size_bytes": 4000787030016,
+    "interface_interna": "S-ATA Gen3, 6 Gbps",
+    "numero_serie_sn": "ZDHBVLVQ",
+    "wwn": "5000C500E57EC7E7",
+    "tipo_fisico": "3.5\" Fixed Disk"
+  },
+  "dados_smart": {
+    "data_coleta_smart": "2025-11-23",
+    "power_on_hours_h": 13735,
+    "power_cycles": 5785,
+    "atributos_criticos": [
+      {
+        "nome": "Reallocated Sectors Count",
+        "valor": 0
+      },
+      {
+        "nome": "Current Pending Sector Count",
+        "valor": 0
+      },
+      {
+        "nome": "Disk Temperature (C)",
+        "valor": 45
+      }
+    ]
+  },
+  "ata_info": {
+    "rotational_speed": "5900 RPM",
+    "form_factor": "3.5 inch",
+    "disk_interface": "Serial-ATA/600",
+    "transport_version": "SATA Rev 3.1",
+    "buffer_size_kb": 65536
+  },
+  "sata_features": {
+    "sata_speeds": [
+      "S-ATA I (1.5 Gps)",
+      "S-ATA II (3 Gps)",
+      "S-ATA Gen3 (6 Gps)"
+    ],
+    "negotiated_rate": "S-ATA Gen3 Signaling Speed (6 Gps)",
+    "native_command_queuing_ncq": "Supported",
+    "power_required_idle_w": 7.2
+  },
+  "smart_details": {
+    "extended_self_test_estimated_time_min": 613,
+    "security_erase_time_min": 442,
+    "security_frozen": "Yes",
+    "sanitize_supported": "Yes"
+  },
+  "analise_resumo": {
+    "saude_geral": "IMPECÁVEL",
+    "horas_ligado_aprox": "13.735 horas",
+    "setores_defeituosos": 0,
+    "setores_pendentes": 0,
+    "observacoes": "Drive Seagate IronWolf de 4TB em excelente estado. Ideal para armazenamento a longo prazo de coleções de mídia estáticas como a sua biblioteca de Retrogaming."
+  }
+}

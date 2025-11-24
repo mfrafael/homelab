@@ -1,0 +1,235 @@
+{
+  "drive_id": "V",
+  "location": "External",
+  "data_criacao_doc": "2025-11-23",
+  "metadados": {
+    "nome_unidade_atual": "V: [Vazio 700GB]",
+    "fabricante": "Seagate Technology",
+    "modelo": "Momentus 7200.5 750422",
+    "modelo_id": "ST9750422AS",
+    "firmware": "0001BSM1",
+    "capacidade_gb": 715,
+    "total_size_bytes": 750000000000,
+    "interface_interna": "Serial-ATA/300 (SATA II)",
+    "data_fabricacao": "2012-06",
+    "numero_serie_sn": "6WS2KZDG",
+    "wwn": "5000C500518CD812",
+    "tipo_fisico": "2.5\" Laptop"
+  },
+  "usb_controller_info": {
+    "interface_externa": "USB Attached SCSI (UASP)",
+    "usb_version": "USB 3.0",
+    "controller_model": "ASMT1051",
+    "vendor_info": "VID: 174C, PID: 55AA",
+    "device_type": "Removable, surprise remove possible"
+  },
+  "dados_smart": {
+    "data_coleta_smart": "2025-11-23",
+    "atributos": [
+      {
+        "id": 1,
+        "nome": "Raw Read Error Rate",
+        "valor_raw_hex": "000005B54B38",
+        "threshold": 6,
+        "status": "OK"
+      },
+      {
+        "id": 3,
+        "nome": "Spin Up Time",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 4,
+        "nome": "Start/Stop Count",
+        "valor_raw_hex": "00000000141B",
+        "threshold": 20,
+        "status": "OK"
+      },
+      {
+        "id": 5,
+        "nome": "Reallocated Sectors Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 36,
+        "status": "OK"
+      },
+      {
+        "id": 7,
+        "nome": "Seek Error Rate",
+        "valor_raw_hex": "00000D198B30",
+        "threshold": 30,
+        "status": "OK"
+      },
+      {
+        "id": 9,
+        "nome": "Power On Time Count",
+        "valor_raw_hex": "000000001A9F",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 10,
+        "nome": "Spin Retry Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 97,
+        "status": "OK"
+      },
+      {
+        "id": 12,
+        "nome": "Drive Power Cycle Count",
+        "valor_raw_hex": "000000000A09",
+        "threshold": 20,
+        "status": "OK"
+      },
+      {
+        "id": 184,
+        "nome": "End-to-End Error Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 99,
+        "status": "OK"
+      },
+      {
+        "id": 187,
+        "nome": "Reported Uncorrectable Errors",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 188,
+        "nome": "Command Timeout",
+        "valor_raw_hex": "000400040009",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 189,
+        "nome": "High Fly Writes",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 190,
+        "nome": "Airflow Temperature",
+        "valor_raw_hex": "11411E1D001E",
+        "threshold": 45,
+        "status": "OK"
+      },
+      {
+        "id": 191,
+        "nome": "G-Sense Error Rate",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 192,
+        "nome": "Power off Retract Cycle Count",
+        "valor_raw_hex": "00000000070B",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 193,
+        "nome": "Load/Unload Cycle Count",
+        "valor_raw_hex": "00000000E883",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 194,
+        "nome": "Disk Temperature",
+        "valor_raw_hex": "000F0000001E",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 195,
+        "nome": "Hardware ECC Recovered",
+        "valor_raw_hex": "000005B54B38",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 197,
+        "nome": "Current Pending Sector Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 198,
+        "nome": "Off-Line Uncorrectable Sector Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 199,
+        "nome": "Ultra ATA CRC Error Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 240,
+        "nome": "Head Flying Hours",
+        "valor_raw_hex": "A3AD000015DC",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 241,
+        "nome": "Total LBA Written",
+        "valor_raw_hex": "0000AA224F2A",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 242,
+        "nome": "Total LBA Read",
+        "valor_raw_hex": "0000B4FE94D4",
+        "threshold": 0,
+        "status": "OK"
+      }
+    ]
+  },
+  "ata_info": {
+    "rotational_speed": "7200 RPM",
+    "form_factor": "2.5 inch",
+    "disk_interface": "Serial-ATA/300",
+    "transport_version": "SATA Rev 2.6",
+    "buffer_size_kb": 16384,
+    "maximum_udma_mode_mb_s": 300,
+    "average_seek_time_ms": 11.0,
+    "advanced_format": true
+  },
+  "sata_features": {
+    "sata_speeds": [
+      "S-ATA I (1.5 Gps)",
+      "S-ATA II (3 Gps)"
+    ],
+    "native_command_queuing_ncq": "Supported",
+    "acoustic_management": "Disabled",
+    "power_required_spinup_ma": 1200,
+    "power_required_idle_w": 1.2
+  },
+  "smart_details": {
+    "self_test_execution_status": "Successfully Completed",
+    "extended_self_test_estimated_time_min": 145,
+    "last_short_self_test_result": "Never Started",
+    "last_extended_self_test_result": "Never Started",
+    "security_mode": "Supported",
+    "security_level": "High",
+    "security_frozen": "No"
+  },
+  "analise_resumo": {
+    "saude_geral": "OTIMA",
+    "horas_ligado_aprox": "6815 horas (9.4 meses)",
+    "setores_defeituosos": 0,
+    "setores_pendentes": 0,
+    "observacoes": "Drive SATA II de 7200 RPM (Momentus). Está em MUITO BOA CONDIÇÃO para sua idade (2012) com 0 falhas reportadas. A velocidade de 7200 RPM é ideal para backup ou transferência externa de dados."
+  }
+}

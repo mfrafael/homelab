@@ -1,0 +1,198 @@
+{
+  "drive_id": "D",
+  "location": "Desktop",
+  "data_criacao_doc": "2025-11-23",
+  "metadados": {
+    "nome_unidade_atual": "D: [Ironwolf]",
+    "fabricante": "Seagate Technology",
+    "modelo": "Ironwolf",
+    "modelo_id": "ST4000VN006-3CW104",
+    "firmware": "SC60",
+    "capacidade_gb": 3815,
+    "total_size_bytes": 4000787030016,
+    "interface_interna": "S-ATA Gen3, 6 Gbps",
+    "data_instalacao": "8/16/2025",
+    "numero_serie_sn": "ZW62M4K7",
+    "wwn": "5000C500E8FA9AA3",
+    "tipo_fisico": "3.5\" Fixed Disk"
+  },
+  "dados_smart": {
+    "data_coleta_smart": "2025-11-23",
+    "atributos": [
+      {
+        "id": 1,
+        "nome": "Raw Read Error Rate",
+        "valor_raw_hex": "000006C860E2",
+        "threshold": 6,
+        "status": "OK"
+      },
+      {
+        "id": 3,
+        "nome": "Spin Up Time",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 4,
+        "nome": "Start/Stop Count",
+        "valor_raw_hex": "00000000051D",
+        "threshold": 20,
+        "status": "OK"
+      },
+      {
+        "id": 5,
+        "nome": "Reallocated Sectors Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 10,
+        "status": "OK"
+      },
+      {
+        "id": 7,
+        "nome": "Seek Error Rate",
+        "valor_raw_hex": "00000337B2A4",
+        "threshold": 45,
+        "status": "OK"
+      },
+      {
+        "id": 9,
+        "nome": "Power On Time Count",
+        "valor_raw_hex": "0000000012A0",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 10,
+        "nome": "Spin Retry Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 97,
+        "status": "OK"
+      },
+      {
+        "id": 12,
+        "nome": "Drive Power Cycle Count",
+        "valor_raw_hex": "000000000239",
+        "threshold": 20,
+        "status": "OK"
+      },
+      {
+        "id": 183,
+        "nome": "SATA Downshift Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 187,
+        "nome": "Reported Uncorrectable Errors",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 188,
+        "nome": "Command Timeout",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 190,
+        "nome": "Airflow Temperature",
+        "valor_raw_hex": "00002A27002A",
+        "threshold": 40,
+        "status": "OK"
+      },
+      {
+        "id": 193,
+        "nome": "Load/Unload Cycle Count",
+        "valor_raw_hex": "000000015CBE",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 197,
+        "nome": "Current Pending Sector Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 198,
+        "nome": "Off-Line Uncorrectable Sector Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 199,
+        "nome": "Ultra ATA CRC Error Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 240,
+        "nome": "Head Flying Hours",
+        "valor_raw_hex": "5F4100000DE7",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 241,
+        "nome": "Total LBA Written",
+        "valor_raw_hex": "0007AC82360C",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 242,
+        "nome": "Total LBA Read",
+        "valor_raw_hex": "00161C4E6C0B",
+        "threshold": 0,
+        "status": "OK"
+      }
+    ]
+  },
+  "ata_info": {
+    "rotational_speed": "5400 RPM",
+    "form_factor": "3.5 inch",
+    "disk_interface": "Serial-ATA/600",
+    "transport_version": "SATA Rev 3.1",
+    "total_sectors": 976754646,
+    "bytes_per_sector": 4096,
+    "advanced_format": true
+  },
+  "sata_features": {
+    "sata_speeds": [
+      "S-ATA I (1.5 Gps)",
+      "S-ATA II (3 Gps)",
+      "S-ATA Gen3 (6 Gps)"
+    ],
+    "negotiated_rate": "S-ATA Gen3 Signaling Speed (6 Gps)",
+    "native_command_queuing_ncq": "Supported",
+    "nominal_media_rotation_rate": "5400 RPM",
+    "extended_power_management": "Supported, Enabled"
+  },
+  "smart_details": {
+    "last_short_self_test_result": "Successfully Completed",
+    "last_short_self_test_date": "11/23/2025 6:30:17 PM",
+    "extended_self_test_estimated_time_min": 446,
+    "security_mode": "Supported",
+    "security_level": "High",
+    "security_frozen": "Yes"
+  },
+  "transfer_rate_info": {
+    "total_data_write_mb": 80494,
+    "average_writes_per_day_mb": 813.07,
+    "average_disk_activity_percent": 0.32,
+    "highest_transfer_rate": "S-ATA Gen3 Signaling Speed (6 Gps)"
+  },
+  "analise_resumo": {
+    "saude_geral": "IMPECÁVEL",
+    "horas_ligado_aprox": "4760 horas (cerca de 6.6 meses)",
+    "setores_defeituosos": 0,
+    "setores_pendentes": 0,
+    "observacoes": "Este é um drive **Seagate Ironwolf**, modelo NAS/Dados, em condição perfeita (zero falhas SMART). O drive está em um estágio inicial de uso e é totalmente confiável para armazenar dados primários, como suas fotos e documentos."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "drive_id": "S",
+  "location": "External",
+  "data_criacao_doc": "2025-11-23",
+  "metadados": {
+    "nome_unidade_atual": "S: [Media Server (Backup)]",
+    "fabricante": "Seagate Technology",
+    "modelo": "Expansion Desk",
+    "modelo_id": "ST12000VN0008-2JH101",
+    "firmware": "DN01",
+    "capacidade_gb": 11444,
+    "total_size_bytes": 12000000000000,
+    "interface_interna": "SATA Rev 3.1 (SATA III)",
+    "numero_serie_sn": "ZH3MKAD4",
+    "wwn": "5000C500B423D438",
+    "tipo_fisico": "3.5\" Fixed Disk (External Enclosure)"
+  },
+  "usb_controller_info": {
+    "interface_externa": "USB Attached SCSI (UASP)",
+    "usb_version": "USB 3.0",
+    "controller_model": "ASMT1051",
+    "vendor_info": "VID: 0BC2, PID: 3322",
+    "device_type": "Removable, surprise remove possible"
+  },
+  "dados_smart": {
+    "data_coleta_smart": "2025-11-23",
+    "power_on_hours_h": 4005,
+    "power_cycles": 352,
+    "atributos_criticos": [
+      {
+        "nome": "Reallocated Sectors Count",
+        "valor": 0
+      },
+      {
+        "nome": "Current Pending Sector Count",
+        "valor": 0
+      },
+      {
+        "nome": "Reported Uncorrectable Errors",
+        "valor": 0
+      },
+      {
+        "nome": "Disk Temperature (C)",
+        "valor": 36
+      }
+    ]
+  },
+  "ata_info": {
+    "rotational_speed": "7200 RPM",
+    "form_factor": "3.5 inch",
+    "disk_interface": "Serial-ATA/600",
+    "transport_version": "SATA Rev 3.1",
+    "buffer_size_kb": 65536
+  },
+  "sata_features": {
+    "sata_speeds": [
+      "S-ATA I (1.5 Gps)",
+      "S-ATA II (3 Gps)",
+      "S-ATA Gen3 (6 Gps)"
+    ],
+    "negotiated_rate": "S-ATA II Signaling Speed (3 Gps)",
+    "native_command_queuing_ncq": "Supported",
+    "nominal_media_rotation_rate": "7200 RPM"
+  },
+  "smart_details": {
+    "last_short_self_test_result": "Successfully Completed",
+    "last_short_self_test_date": "9/27/2025 12:01:35 PM",
+    "extended_self_test_estimated_time_min": 1077,
+    "security_erase_time_min": 1058,
+    "sanitize_supported": "Yes"
+  },
+  "analise_resumo": {
+    "saude_geral": "IMPECÁVEL",
+    "horas_ligado_aprox": "4.005 horas (cerca de 5.5 meses)",
+    "setores_defeituosos": 0,
+    "setores_pendentes": 0,
+    "observacoes": "Drive de alta capacidade (12TB) em condição perfeita. Operando a 7200 RPM, é ideal para o backup da sua biblioteca de mídia do Homelab, oferecendo boa velocidade de acesso para um drive externo."
+  }
+}

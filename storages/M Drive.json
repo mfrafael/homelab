@@ -1,0 +1,61 @@
+{
+  "drive_id": "M",
+  "location": "External",
+  "data_criacao_doc": "2025-11-23",
+  "metadados": {
+    "nome_unidade_atual": "M: [Music Backup]",
+    "fabricante": "Seagate Technology",
+    "modelo": "Momentus 7200.5 750420",
+    "modelo_id": "ST9750420AS",
+    "firmware": "0003HPM1",
+    "capacidade_gb": 715,
+    "total_size_bytes": 750000000000,
+    "interface_interna": "Serial-ATA/300 (SATA II)",
+    "numero_serie_sn": "5WS3JQCF",
+    "wwn": "5000C50045232461",
+    "tipo_fisico": "2.5\" Fixed Disk"
+  },
+  "usb_controller_info": {
+    "interface_externa": "USB Attached SCSI (UASP)",
+    "usb_version": "USB 3.0",
+    "controller_model": "ASMT1051",
+    "vendor_info": "VID: 174C, PID: 55AA",
+    "device_type": "Removable, surprise remove possible"
+  },
+  "dados_smart": {
+    "data_coleta_smart": "2025-11-23",
+    "power_on_hours_h": 10053,
+    "power_cycles": 2036,
+    "atributos_criticos": [
+      {
+        "nome": "Reallocated Sectors Count",
+        "valor": 0
+      },
+      {
+        "nome": "Current Pending Sector Count",
+        "valor": 171
+      },
+      {
+        "nome": "Reported Uncorrectable Errors",
+        "valor": 939
+      },
+      {
+        "nome": "G-Sense Error Rate (Impacts)",
+        "valor": 1057
+      }
+    ]
+  },
+  "ata_info": {
+    "rotational_speed": "7200 RPM",
+    "form_factor": "2.5 inch",
+    "disk_interface": "Serial-ATA/300",
+    "transport_version": "SATA Rev 2.6"
+  },
+  "analise_resumo": {
+    "saude_geral": "INSTÁVEL / ALTO RISCO DE DADOS",
+    "horas_ligado_aprox": "10.053 horas (cerca de 1.15 anos)",
+    "setores_defeituosos": 0,
+    "setores_pendentes": 171,
+    "observacoes": "O drive está fisicamente bem (0 realocações), mas o alto número de setores pendentes (171) e erros não corrigíveis (939) indica instabilidade de leitura e risco de perda de dados. Não recomendado como único backup. Use-o no máximo para dados que podem ser rebaixados (como o drive Z:)."
+  }
+}

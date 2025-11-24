@@ -1,0 +1,66 @@
+{
+  "drive_id": "P",
+  "location": "External",
+  "data_criacao_doc": "2025-11-23",
+  "metadados": {
+    "nome_unidade_atual": "P: [Photos]",
+    "fabricante": "Seagate Technology",
+    "modelo": "Expansion Desk",
+    "modelo_id": "ST2000VN004-2E4164",
+    "firmware": "SC60",
+    "capacidade_gb": 1907,
+    "total_size_bytes": 2000398934016,
+    "interface_interna": "S-ATA Gen3 (SATA III)",
+    "numero_serie_sn": "Z520600H",
+    "wwn": "5000C5009D3AB78D",
+    "tipo_fisico": "3.5\" Fixed Disk (External Enclosure)"
+  },
+  "usb_controller_info": {
+    "interface_externa": "USB Attached SCSI (UASP)",
+    "usb_version": "USB 3.0",
+    "vendor_info": "VID: 0BC2, PID: 3322"
+  },
+  "dados_smart": {
+    "data_coleta_smart": "2025-11-23",
+    "power_on_hours_h": 25485,
+    "power_cycles": 4368,
+    "atributos_criticos": [
+      {
+        "nome": "Reallocated Sectors Count",
+        "valor": 0
+      },
+      {
+        "nome": "Current Pending Sector Count",
+        "valor": 0
+      },
+      {
+        "nome": "Reported Uncorrectable Errors",
+        "valor": 0
+      },
+      {
+        "nome": "Ultra ATA CRC Error Count (Conexão)",
+        "valor": 8764
+      },
+      {
+        "nome": "Command Timeout",
+        "valor": 604
+      }
+    ]
+  },
+  "ata_info": {
+    "rotational_speed": "5900 RPM",
+    "disk_interface": "Serial-ATA/600",
+    "buffer_size_kb": 65536
+  },
+  "sata_features": {
+    "negotiated_rate": "S-ATA II Signaling Speed (3 Gps)",
+    "nominal_media_rotation_rate": "5900 RPM"
+  },
+  "analise_resumo": {
+    "saude_geral": "IMPECÁVEL (Físico)",
+    "horas_ligado_aprox": "25.485 horas (cerca de 2.9 anos)",
+    "setores_defeituosos": 0,
+    "setores_pendentes": 0,
+    "observacoes": "O disco físico (IronWolf 2TB, 5900 RPM) está perfeito, essencial para backups de fotos. Os erros de CRC e Timeout sugerem problemas na conexão USB/cabo ou no enclosure, o que é mitigado pela sua prática de mantê-lo desconectado, usando apenas para backup semestral."
+  }
+}

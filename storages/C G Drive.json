@@ -1,0 +1,72 @@
+{
+  "drive_id": "C/G",
+  "location": "Desktop",
+  "data_criacao_doc": "2025-11-23",
+  "metadados": {
+    "nome_unidade_atual": "C: / G: [Gaming]",
+    "fabricante": "Samsung",
+    "modelo": "SSD 980 PRO 1TB",
+    "modelo_id": "Samsung SSD 980 PRO 1TB",
+    "firmware": "3B2QGXA7",
+    "capacidade_gb": 953,
+    "total_size_bytes": 1000204886016,
+    "interface_interna": "PCI-Express x4 (4.0)",
+    "negotiated_rate": "PCIe 4.0 x4",
+    "numero_serie_sn": "S5P2NG0R933687D",
+    "wwn": "N/A",
+    "tipo_fisico": "M.2 2280"
+  },
+  "nvme_info": {
+    "nvme_standard_version": 1.3,
+    "controller": "Samsung Elpis S4LV003",
+    "memory_type": "Samsung 128-layer 3D TLC V-NAND",
+    "power_states": 5,
+    "critical_composite_temp_threshold_c": 85,
+    "warning_composite_temp_threshold_c": 82,
+    "host_controlled_thermal_management": "Supported"
+  },
+  "dados_nvme_smart": {
+    "data_coleta_smart": "2025-11-23",
+    "power_on_hours_h": 13676,
+    "power_cycles": 1832,
+    "unsafe_shutdowns": 59,
+    "atributos_criticos": [
+      {
+        "nome": "Composite Temperature (C)",
+        "sensor_1_c": 51,
+        "sensor_2_c": 64
+      },
+      {
+        "nome": "Available Spare (%)",
+        "valor": 100,
+        "threshold": 10
+      },
+      {
+        "nome": "Percentage Used (%)",
+        "valor": 21
+      },
+      {
+        "nome": "Media and Data Integrity Errors",
+        "valor": 0
+      },
+      {
+        "nome": "Critical Warning",
+        "valor": 0
+      }
+    ]
+  },
+  "transfer_rate_info": {
+    "total_data_read_gb": 16.458,
+    "total_data_write_gb": 22.728,
+    "average_reads_per_day_mb": 166.24,
+    "average_writes_per_day_mb": 229.58,
+    "current_disk_activity_percent": 1
+  },
+  "analise_resumo": {
+    "saude_geral": "IMPECÁVEL",
+    "horas_ligado_aprox": "13.676 horas (cerca de 1.5 anos)",
+    "wear_level": "21% de uso do ciclo de vida",
+    "temperatura_max_c": 64,
+    "observacoes": "Este é um SSD de alto desempenho (PCIe 4.0), operando com níveis de uso e temperatura totalmente saudáveis. O drive ainda tem 79% da sua vida útil (Available Spare: 100%)."
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "drive_id": "Z",
+  "location": "Desktop",
+  "data_criacao_doc": "2025-11-23",
+  "metadados": {
+    "nome_unidade_atual": "Z: (Zombie Drive)",
+    "fabricante": "Seagate Technology",
+    "modelo": "Barracuda 7200.12",
+    "modelo_id": "ST4000DM000-1F2168",
+    "firmware": "CC54",
+    "capacidade_gb": 3815,
+    "total_size_bytes": 4000787030016,
+    "interface": "S-ATA Gen3, 6 Gbps",
+    "transport_version": "SATA Rev 3.1",
+    "numero_serie_sn": "W301A371",
+    "wwn": "5000C5009AE32570",
+    "tipo_fisico": "3.5\" Fixed Disk"
+  },
+  "dados_smart": {
+    "data_coleta_smart": "2025-11-23",
+    "atributos": [
+      {
+        "id": 1,
+        "nome": "Raw Read Error Rate",
+        "valor_raw_hex": "00000BAB6178",
+        "threshold": 6,
+        "status": "OK"
+      },
+      {
+        "id": 3,
+        "nome": "Spin Up Time",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 4,
+        "nome": "Start/Stop Count",
+        "valor_raw_hex": "000000002A01",
+        "threshold": 20,
+        "status": "OK"
+      },
+      {
+        "id": 5,
+        "nome": "Reallocated Sectors Count",
+        "valor_raw_hex": "0000000004B8",
+        "threshold": 10,
+        "status": "CRITICO"
+      },
+      {
+        "id": 7,
+        "nome": "Seek Error Rate",
+        "valor_raw_hex": "000008D96435",
+        "threshold": 30,
+        "status": "OK"
+      },
+      {
+        "id": 9,
+        "nome": "Power On Time Count",
+        "valor_raw_hex": "000000009547",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 10,
+        "nome": "Spin Retry Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 97,
+        "status": "OK"
+      },
+      {
+        "id": 12,
+        "nome": "Drive Power Cycle Count",
+        "valor_raw_hex": "000000000C1D",
+        "threshold": 20,
+        "status": "OK"
+      },
+      {
+        "id": 183,
+        "nome": "SATA Downshift Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 187,
+        "nome": "Reported Uncorrectable Errors",
+        "valor_raw_hex": "00000000098D",
+        "threshold": 0,
+        "status": "CRITICO"
+      },
+      {
+        "id": 188,
+        "nome": "Command Timeout",
+        "valor_raw_hex": "00090009000E",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 190,
+        "nome": "Airflow Temperature",
+        "valor_raw_hex": "00002E28002E",
+        "threshold": 45,
+        "status": "OK"
+      },
+      {
+        "id": 193,
+        "nome": "Load/Unload Cycle Count",
+        "valor_raw_hex": "0000000277C9",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 197,
+        "nome": "Current Pending Sector Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 198,
+        "nome": "Off-Line Uncorrectable Sector Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 199,
+        "nome": "Ultra ATA CRC Error Count",
+        "valor_raw_hex": "000000000000",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 240,
+        "nome": "Head Flying Hours",
+        "valor_raw_hex": "63DA0000487C",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 241,
+        "nome": "Total LBA Written",
+        "valor_raw_hex": "002EA188CC17",
+        "threshold": 0,
+        "status": "OK"
+      },
+      {
+        "id": 242,
+        "nome": "Total LBA Read",
+        "valor_raw_hex": "00722D3BD951",
+        "threshold": 0,
+        "status": "OK"
+      }
+    ]
+  },
+  "ata_info": {
+    "rotational_speed": "5900 RPM",
+    "form_factor": "3.5 inch",
+    "total_sectors": 976754646,
+    "bytes_per_sector": 4096,
+    "advanced_format": true,
+    "buffer_size_kb": 65536,
+    "ncq_support": true,
+    "queue_length": 32
+  },
+  "sata_features": {
+    "sata_speeds": [
+      "S-ATA I (1.5 Gps)",
+      "S-ATA II (3 Gps)",
+      "S-ATA Gen3 (6 Gps)"
+    ],
+    "negotiated_rate": "S-ATA Gen3 Signaling Speed (6 Gps)",
+    "media_rotation_rate": "5900 RPM",
+    "acoustic_management": "Disabled",
+    "power_required_seek": "12.8 W",
+    "power_required_idle": "7.2 W"
+  },
+  "smart_details": {
+    "last_short_self_test_result": "Successfully Completed",
+    "last_short_self_test_date": "11/23/2025 4:34:39 PM",
+    "last_extended_self_test_result": "Aborted By Host",
+    "last_extended_self_test_date": "9/23/2025 11:08:46 PM",
+    "security_mode": "Supported",
+    "security_level": "High",
+    "security_enabled": "No",
+    "security_frozen": "Yes"
+  },
+  "analise_resumo": {
+    "saude_geral": "ALTO RISCO",
+    "horas_ligado_aprox": "38.215 horas (4.36 anos)",
+    "setores_defeituosos_realocados": 1208,
+    "erros_incorrigiveis_reportados": 2445,
+    "observacoes": "Drive em falha progressiva (Seagate Barracuda 4TB, 5900 RPM). Confirmado pelo alto número de setores realocados (1208) e erros não corrigíveis. Mantenha-o apenas para dados de baixíssima prioridade (re-baixáveis)."
+  }
+}

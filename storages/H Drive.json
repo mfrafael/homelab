@@ -1,0 +1,54 @@
+{
+  "drive_id": "H",
+  "location": "Homelab",
+  "data_criacao_doc": "2025-11-23",
+  "metadados": {
+    "nome_unidade_atual": "H: [ExternalHDD / Homelab]",
+    "fabricante": "Seagate Technology",
+    "modelo": "Exos X24",
+    "modelo_id": "ST24000NM000H-3KS103",
+    "firmware": "SN04",
+    "capacidade_gb": 24000,
+    "total_size_bytes": 24000277000000,
+    "interface_interna": "SATA III (6.0 Gb/s)",
+    "numero_serie_sn": "ZYD0CB2X",
+    "wwn": "5000c500e8a3a9ac",
+    "tipo_fisico": "3.5 inch, Fixed Disk"
+  },
+  "ata_info": {
+    "rotational_speed": "7200 RPM",
+    "transport_version": "SATA Rev 3.0",
+    "logical_sector_size_bytes": 512,
+    "physical_sector_size_bytes": 4096
+  },
+  "dados_smart": {
+    "data_coleta_smart": "2025-11-23",
+    "power_on_hours_h": 61,
+    "power_cycles": 5,
+    "atributos_criticos": [
+      {
+        "nome": "Reallocated Sectors Count",
+        "valor": 0
+      },
+      {
+        "nome": "Current Pending Sector",
+        "valor": 0
+      },
+      {
+        "nome": "Disk Temperature (C)",
+        "valor": 43
+      },
+      {
+        "nome": "Load Cycle Count",
+        "valor": 8
+      }
+    ]
+  },
+  "analise_resumo": {
+    "saude_geral": "IMPECÁVEL (Enterprise Grade)",
+    "horas_ligado_aprox": "61 horas",
+    "setores_defeituosos": 0,
+    "setores_pendentes": 0,
+    "observacoes": "Drive Seagate Exos X24 (24TB), Enterprise Grade, em estado de novo. Perfeito para a função de Homelab e Media Server. É o drive mais confiável do seu setup."
+  }
+}
