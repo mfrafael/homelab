@@ -114,36 +114,12 @@ Esta tabela lista todos os serviços em execução no Proxmox, seus acessos e co
 | **102** | Jellyfin | LXC | `http://192.168.0.77:8096/` | `8096` | ✅ Ativo | Streaming de mídia (Interface de Admin). |
 | **103** | MySpeed | LXC | `http://192.168.0.192:5216/` | `5216` | ✅ Ativo | Monitoramento de velocidade. |
 | **104** | QbitTorrent | LXC | `http://192.168.0.96:8090/` | `8090` | ✅ Ativo | Cliente Torrent. **Possui VPN (NordVPN) configurada.** |
-| **106** | Prowlarr | LXC | `http://192.168.0.104:9696/` | `9696` | ❌ Desativado | Gerenciador de indexadores. |
-| **107** | FlareSolverr | LXC | `http://192.168.0.196:8191/` | `8191` | ❌ Desativado | Bypass de proteção CloudFlare. |
-| **108** | Recyclarr | LXC | `http://192.168.0.120/` | N/A | ❌ Desativado | Sincronização de configurações do *arr. |
-| **109** | Radarr | LXC | `http://192.168.0.127:7878/` | `7878` | ❌ Desativado | Gerenciador de filmes. |
-| **110** | Sonarr | LXC | `http://192.168.0.91:8989/` | `8989` | ❌ Desativado | Gerenciador de séries. |
-| **111** | Immich | LXC | `http://192.168.0.53:2283/` | `2283` | ❌ Desativado | Alternativa self-hosted ao Google Photos. |
 | **112** | Grafana | LXC | `http://192.168.0.228:3000` | `3000` | ✅ Ativo | Visualização de métricas e dashboards. |
 | **113** | InfluxDB | LXC | `http://192.168.0.81:8086/` | `8086` | ✅ Ativo | Banco de dados de séries temporais. |
+| **114** | Nginx Proxy Manager | LXC | `http://192.168.0.64:81/` | `81` | ⏸️ Desativado | Reverse proxy & SSL. **Conflita com NordVPN do navegador.** |
 
-**Nota:** Os containers 106-110 (Stack *arr) estão atualmente desativados. Credenciais em `CREDENTIALS.md`.
+**Nota:** Apenas serviços ativos listados (exceto 114, mantido para referência). Credenciais em `CREDENTIALS.md`.
 
-### 4.1 Configurações Especiais de LXC
-
-#### 4.1.1 Immich (CT 111) - [DESATIVADO]
-
-> Motivo: Update 2.2.2 quebrou os thumbnails. Não retomado ainda.
-
-| Recurso | Configuração |
-| :--- | :--- |
-| **CPU** | 4 cores |
-| **RAM** | 4096 MiB |
-| **Disco Base** | 20 GB |
-| **Mount Point** | `/opt/immich-library` → `/opt/immich/upload` |
-
-**Comando de Mount:**
-```bash
-pct set 111 -mp0 /opt/immich-library,mp=/opt/immich/upload
-```
-
-> 🔐 Credenciais e senhas estão em `CREDENTIALS.md`
 
 ---
 
