@@ -252,6 +252,7 @@ pct restore CONTAINER_ID /var/lib/vz/dump/vzdump-lxc-CONTAINER_ID.tar
 | Disco cheio | `df -h` | Limpar `/var/log/` e backups antigos |
 | DNS não responde | `ping 192.168.0.52` | Reiniciar container do AdGuard |
 | Alto uso de CPU | `htop` | Verificar processos e limitar recursos do container |
+| qBittorrent: Trocar servidor NordVPN | `systemctl status openvpn-client@nordvpn` | Ver [Seção 11.1](#111-nordvpn-no-lxc-qbittorrent---trocar-de-servidor) |
 
 ### 11.1 NordVPN no LXC qBittorrent - Trocar de Servidor
 
@@ -305,7 +306,7 @@ pct restore CONTAINER_ID /var/lib/vz/dump/vzdump-lxc-CONTAINER_ID.tar
 
 ---
 
-## 12. Seguran�a e Boas Pr�ticas
+## 12. Segurança e Boas Práticas
 
 ### 12.1  Gerenciamento de Credenciais
 
