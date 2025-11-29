@@ -252,6 +252,57 @@ pct restore CONTAINER_ID /var/lib/vz/dump/vzdump-lxc-CONTAINER_ID.tar
 | Disco cheio | `df -h` | Limpar `/var/log/` e backups antigos |
 | DNS não responde | `ping 192.168.0.52` | Reiniciar container do AdGuard |
 | Alto uso de CPU | `htop` | Verificar processos e limitar recursos do container |
+
+### 11.1 NordVPN no LXC qBittorrent - Trocar de Servidor
+
+**Problema:** Necessidade de trocar de servidor VPN do NordVPN no LXC qBittorrent.
+
+**Solução Passo a Passo:**
+
+1. **Parar o serviço OpenVPN:**
+   ```bash
+   systemctl stop openvpn-client@nordvpn
+   ```
+
+2. **Selecionar novo arquivo de configuração:**
+   - Os arquivos de configuração estão em: `/etc/openvpn/client/ovpn_udp/`
+   - Exemplo de arquivo disponível: `br75.nordvpn.com.udp.ovpn`
+
+3. **Copiar arquivo para configuração padrão:**
+   ```bash
+   cp /etc/openvpn/client/ovpn_udp/br75.nordvpn.com.udp.ovpn /etc/openvpn/client/nordvpn.conf
+   ```
+
+4. **⚠️ Atualizar credenciais no arquivo copiado:**
+   - Editar o arquivo `/etc/openvpn/client/nordvpn.conf`
+   - Na **linha 22**, localizar: `auth-user-pass`
+   - Substituir por: `auth-user-pass /etc/openvpn/credentials/nordvpn.txt`
+   - Este arquivo contém as credenciais de login do NordVPN
+   
+   ```bash
+   # Exemplo de edição com sed
+   sed -i 's/^auth-user-pass$/auth-user-pass \/etc\/openvpn\/credentials\/nordvpn.txt/' /etc/openvpn/client/nordvpn.conf
+   ```
+
+5. **Reiniciar o serviço OpenVPN:**
+   ```bash
+   systemctl start openvpn-client@nordvpn
+   ```
+
+**Alternativa:** Rebootar o LXC (o OpenVPN está configurado para iniciar automaticamente ao boot):
+   ```bash
+   reboot
+   ```
+
+**Verificação:** Confirmar que a VPN está conectada:
+   ```bash
+   # Verificar status
+   systemctl status openvpn-client@nordvpn
+   
+   # Verificar IP da VPN (deve ser diferente do IP original)
+   curl ifconfig.me
+   ```
+
 ---
 
 ## 12. Seguran�a e Boas Pr�ticas
