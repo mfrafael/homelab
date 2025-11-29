@@ -309,10 +309,10 @@ pct restore CONTAINER_ID /var/lib/vz/dump/vzdump-lxc-CONTAINER_ID.tar
 
 ### 12.1  Gerenciamento de Credenciais
 
-> **Arquivo separado:** Todas as credenciais est�o em \CREDENTIALS.md\
-> -  **Em \.gitignore\** - Protegido de exposi��o acidental no GitHub
-> -  **Apenas local** - Nunca ser� versionado
-> -  **Bem documentado** - Organize por servi�o
+> **Arquivo separado:** Todas as credenciais estão em \CREDENTIALS.md\
+> -  **Em \.gitignore\** - Protegido de exposição acidental no GitHub
+> -  **Apenas local** - Nunca será versionado
+> -  **Bem documentado** - Organize por serviço
 
 **Nunca adicione credenciais ao README.md!**
 
@@ -323,13 +323,13 @@ pct restore CONTAINER_ID /var/lib/vz/dump/vzdump-lxc-CONTAINER_ID.tar
    # Habilitar firewall
    pve-firewall enable
    
-   # Restringir acesso � WebUI
+   # Restringir acesso à WebUI
    # Editar: /etc/pve/firewall/nodes/NODENAME/host.fw
    \\\
 
-2. **Atualiza��o Autom�tica**
+2. **Atualização Automática**
    \\\ash
-   # Configurar atualiza��es autom�ticas de seguran�a
+   # Configurar atualizações automáticas de segurança
    apt install unattended-upgrades
    \\\
 
@@ -344,50 +344,49 @@ pct restore CONTAINER_ID /var/lib/vz/dump/vzdump-lxc-CONTAINER_ID.tar
 
 ### 12.3 Network Segmentation (Futuro)
 
-- [ ] Implementar VLANs para servi�os cr�ticos (HomeAssistant, InfluxDB)
-- [ ] Segmentar tr�fego de m�dia (Jellyfin) em VLAN separada
-- [ ] Configurar firewall de aplica��o (WAF) para servi�os expostos
+- [ ] Implementar VLANs para serviços críticos (HomeAssistant, InfluxDB)
+- [ ] Segmentar tráfego de mídia (Jellyfin) em VLAN separada
+- [ ] Configurar firewall de aplicação (WAF) para serviços expostos
 - [ ] Isolar containers de risco (qBitTorrent com VPN)
 
-### 12.4 Monitoramento de Seguran�a
+### 12.4 Monitoramento de Segurança
 
 - [ ] Ativar logs de auditoria do Proxmox
 - [ ] Monitorar tentativas de login falhadas
-- [ ] Alertas autom�ticos em Grafana para uso anormal de recursos
-- [ ] Manter registro de mudan�as em \/etc/\ via \etckeeper\
+- [ ] Alertas automáticos em Grafana para uso anormal de recursos
+- [ ] Manter registro de mudanças em \/etc/\ via \etckeeper\
 - [ ] Verificar regularmente logs de acesso HTTP/HTTPS
 
 ### 12.5 Backup Seguro
 
 - [ ] Implementar backup criptografado offsite (3-2-1 rule)
-- [ ] Testar restore regularmente (pelo menos 1x por m�s)
+- [ ] Testar restore regularmente (pelo menos 1x por mês)
 - [ ] Manter chaves de criptografia em local seguro e separado
-- [ ] Manter vers�es anteriores de backups para recupera��o de ransomware
+- [ ] Manter versões anteriores de backups para recuperação de ransomware
 - [ ] Fazer backup do arquivo \CREDENTIALS.md\ de forma segura
 
-### 12.6 Checklist de Seguran�a Inicial
+### 12.6 Checklist de Segurança Inicial
 
-- [ ] Alterar todas as senhas padr�o de admin (especialmente Jellyfin, qBitTorrent, Grafana)
-- [ ] Habilitar HTTPS com certificado v�lido (Let's Encrypt)
-- [ ] Configurar 2FA nos containers cr�ticos
-- [ ] Revisar e limitar permiss�es de disco para containers
-- [ ] Desabilitar servi�os n�o utilizados nos containers
-- [ ] Manter registro de todas as mudan�as
+- [ ] Alterar todas as senhas padrão de admin (especialmente Jellyfin, qBitTorrent, Grafana)
+- [ ] Habilitar HTTPS com certificado válido (Let's Encrypt)
+- [ ] Configurar 2FA nos containers críticos
+- [ ] Revisar e limitar permissões de disco para containers
+- [ ] Desabilitar serviços não utilizados nos containers
+- [ ] Manter registro de todas as mudanças
 
 ---
 
-##  Refer�ncias R�pidas
-
-| Recurso | Link | Descri��o |
+##  Referências Rápidas
+| Recurso | Link | Descrição |
 |---------|------|-----------|
-| **Credenciais** | \CREDENTIALS.md\ | Senhas, tokens e chaves (n�o no git) |
+| **Credenciais** | \CREDENTIALS.md\ | Senhas, tokens e chaves (não no git) |
 | **Proxmox Web** | \https://192.168.0.88:8006\ | Interface de gerenciamento |
-| **HomeAssistant** | \http://homeassistant.local:8123\ | Automa��o residencial |
+| **HomeAssistant** | \http://homeassistant.local:8123\ | Automação residencial |
 | **Grafana** | \http://192.168.0.228:3000\ | Dashboards de monitoramento |
 
 ---
 
-**�ltima atualiza��o:** Novembro 2025  
+**Última atualização:** Novembro 2025  
 **Manutenedor:** mfrafael  
 **Branch:** main  
 ** Credenciais:** Em \CREDENTIALS.md\ (local apenas)
