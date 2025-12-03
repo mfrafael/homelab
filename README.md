@@ -234,13 +234,10 @@ apt update && apt upgrade -y
 ```
 
 ### 10.2 Backup e Restore
-```bash
-# Backup de container
-vzdump CONTAINER_ID --compress zstd
 
-# Restore de backup
-pct restore CONTAINER_ID /var/lib/vz/dump/vzdump-lxc-CONTAINER_ID.tar
-```
+**Localização dos Backups:**
+* **No Host Proxmox:** `/var/lib/vz/dump/`
+* **Cópia Local (PC):** `D:\Backups\Proxmox\var\lib\vz\dump\`
 
 ---
 
